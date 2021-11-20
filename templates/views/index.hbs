@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        {{>header }}
+        <div class="main-content">
+            <div class="container"> 
+                <h1>{{ title }}</h1>
+                
+                <form>
+                    <input class="search-query" type="text" placeholder="Enter location"/>
+                    <button class="search-btn">Search</button>
+                    <p id="msg-1"></p>
+                    <p id="msg-2"></p>
+                </form>
+             </div>
+        </div>
+        {{>footer }}  
+        <script src="/js/main.js"></script>  
+    </body>
+</html>
