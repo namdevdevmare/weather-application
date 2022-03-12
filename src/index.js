@@ -24,7 +24,7 @@ app.use(express.static(mainDirectory));
 
 app.get('', (req, res) => {
     res.render('index', {
-        'title': 'Welcome to Weather application'
+        'title': 'Welcome to Weather application..!'
     });
 });
 
